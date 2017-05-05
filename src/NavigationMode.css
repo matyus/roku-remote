@@ -1,0 +1,18 @@
+.NavigationMode {}
+
+.NavigationMode table {
+  font-family: monospace;
+  border: 1px solid rgba(255,255,255,.5);
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.NavigationMode table th {
+  background-color: rgba(255,255,255,.2);
+}
+
+.NavigationMode table td,
+.NavigationMode table th {
+  padding: 10px;
+}
+

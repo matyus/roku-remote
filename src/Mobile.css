@@ -1,0 +1,36 @@
+.Mobile {}
+
+.Mobile .controls {
+  text-align: center;
+}
+
+.keyboard,
+.Mobile button {
+  background: none;
+  border: 1px solid rgba(255,255,255,.5);
+  border-radius: 3px;
+  color: white;
+  display: inline-flex;
+  font-size: inherit;
+  height: 5em;
+  margin: 5px;
+  padding: 5px;
+  width: 5em;
+  vertical-align: middle;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.keyboard i,
+.Mobile button i {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.Mobile .up,
+.Mobile .down {
+  display: block;
+  margin: auto;
+  flex-direction: row;
+}
